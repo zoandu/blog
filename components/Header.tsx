@@ -37,7 +37,7 @@ const Header: React.FC = () => {
   ); 
 
   let right = null;
-
+  
   return (
     <nav>
       {left}
@@ -52,5 +52,5 @@ const Header: React.FC = () => {
     </nav>
   );
 };
-
+ 
 export default Header;
